@@ -30,14 +30,14 @@ public class Map extends Canvas {
         }
         for (Lion l:Lions1){
             try {
-                g.drawString(l.getName()+"\n"+l.getAge(),l.getLocation().x+4,l.getLocation().y+4);
+                g.drawString(l.getName()+"\n"+l.getAge(),l.getLocation().x+7,l.getLocation().y+7);
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
         }
         for (Drone d:Drones1){
             try {
-                g.drawString(d.getName()+"\n"+d.getFreq(),d.getLocation().x+4,d.getLocation().y+4);
+                g.drawString(d.getName()+"\n"+d.getFreq(),d.getLocation().x+7,d.getLocation().y+7);
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
@@ -45,7 +45,7 @@ public class Map extends Canvas {
 
         for (Keeper k:Keepers1){
             try {
-                g.drawString(k.getName()+"\n"+k.getPhoneNumber(),k.getLocation().x+4,k.getLocation().y+4);
+                g.drawString(k.getName()+"\n"+k.getPhoneNumber(),k.getLocation().x+7,k.getLocation().y+7);
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
