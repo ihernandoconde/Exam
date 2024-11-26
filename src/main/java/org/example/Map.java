@@ -2,7 +2,6 @@ package org.example;
 
 import java.awt.*;
 import java.io.IOException;
-import java.rmi.ConnectIOException;
 import java.util.ArrayList;
 
 public class Map extends Canvas {

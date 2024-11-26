@@ -6,7 +6,10 @@ import java.awt.*;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.net.*;;
+import java.net.HttpURLConnection;
+import java.net.URL;
+
+;
 
 public class LocationSystem {
     // getCoords returns am AWT Point object that contains the co-ordinates of the GPS tag 'GPSid' passed in

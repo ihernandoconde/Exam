@@ -1,7 +1,5 @@
 package org.example;
 
-import org.example.Shape;
-
 import java.awt.*;
 
 
